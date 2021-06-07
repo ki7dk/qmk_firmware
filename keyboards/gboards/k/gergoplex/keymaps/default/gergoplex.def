@@ -1,5 +1,4 @@
 // Gergoplex specfic combos 
-
 COMB(opBacksl,    KC_BSLS,          KC_O, KC_P)
 COMB(hjLess,      KC_LT,            KC_H, KC_J)
 COMB(klGreat,     KC_GT,            KC_K, KC_L)
@@ -7,7 +6,12 @@ COMB(xcDash,      KC_MINS,          KC_X, KC_C)
 COMB(mcUnds,      KC_UNDS,          KC_M, KC_COMM)
 COMB(nmQuot,      KC_QUOT,          KC_N, KC_M)
 COMB(jkEsc,       KC_ESC,           KC_J, KC_K)
+COMB(qwTab,       KC_TAB,           KC_J, KC_K)
+SUBS(zxScreen,    SS_LCTL("a"),     KC_Z, KC_X)
+SUBS(asScreen,    "AS",     KC_A, KC_S)
+
+//COMB(asScreen,     MOD_LCTL,        KC_J, KC_K)
 //COMB(gbClic,      KC_BTN1,          KC_G, KC_B)
 //COMB(fvClic,      KC_BTN2,          KC_F, KC_V)
 
-SUBS(pasta,       "I'd just like to interject for a moment.",       KC_H, KC_J, KC_K, KC_L)
+//SUBS(pasta,       "I'd just like to interject for a moment.",       KC_H, KC_J, KC_K, KC_L)
